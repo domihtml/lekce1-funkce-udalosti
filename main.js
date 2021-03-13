@@ -32,4 +32,16 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  let popisek = document.querySelector (".ctverecek");
+  popisek.textContent = "Gratulace, právě jsi spustila tuto funkci!";
+  popisek.style.fontSize = "40%";
+  console.log ("Gratulace, právě jsi spustila tuto funkci!");
+
 }
+  
+
+  
+  
+ 
+  
+
