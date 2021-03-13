@@ -1,5 +1,13 @@
 // tady je místo pro náš program
 
+
+function priKliknuti (){
+  let barva = document.querySelector(".ctverecek");
+
+  barva.style.backgroundColor = "green";
+}
+
+
 document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
 /**
