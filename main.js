@@ -10,6 +10,12 @@ function priKliknuti (){
 
 document.querySelector("#vysledek").innerHTML = secti(4, 5);
 
+
+function zobrazVysledek (){
+  let vysledek = document.querySelector("#vysledek");
+  vysledek.style.display = "inline-block";
+}
+
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
